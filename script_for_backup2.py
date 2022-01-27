@@ -13,7 +13,8 @@ connection2 = sqlite3.connect('original.db')
 cursor2 = connection2.cursor()
 
 start = time.time()
-numbers = cursor2.execute('SELECT * FROM pressure WHERE reading > 20').fetchall()
+numbers = cursor2.execute('SELECT * FROM pressure').fetchall()
+numbers = [num for num in numbers if num[0] > 20]
 end = time.time()
 print(end - start, len(numbers))
 
@@ -26,3 +27,4 @@ connection2.close()
 cursor.close()
 connection.commit()
 connection.close()
+
