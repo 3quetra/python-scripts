@@ -6,4 +6,23 @@
     
     Project for practicing Lists, Functions, and Dictionaries modules, plus applying data analysis knowledge to a small amount of already normalized data. The task is to arrange data in dictionaries and lists for calculations convenience, after that perform sorting of provided hurricanes in different ways and find extremes among their data points. 
     
-    TBC
+  
+  
+2. **"Filling a Table vs. Printing Values" Project**
+
+    In a file **random.py** one should write a program that creates a new database in a file called **original.db** containing a single table called **'pressure'**, with a single field called **'reading'**, and inserts 100,000 random numbers between 10.0 and 25.0. Qestions to be answered: 
+- How long does it take this program to run? 
+- How long does it take to run a program that simply writes those random numbers to a file? The result described in the 2nd variant can be seen if one runs file named **random2.py**. 
+
+    After launching 2 files one should be able to compare results. 
+
+
+
+3. **"Filtering in SQL vs. Filtering in Python" Project**
+
+    In a file **script_for_backup.py** one should write a program that creates a new database called **backup.db** with the same structure as **original.db**(see item 2) and copies all the values greater than 20.0 from **original.db** to **backup.db**. 
+Which is faster: 
+- filtering values in the query, 
+- or reading everything into memory and filtering in Python? The result described in the 2nd variant can be seen if one runs file named **script_for_backup2.py**. 
+
+    After launching 2 files one should be able to compare results. 
