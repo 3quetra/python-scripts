@@ -26,3 +26,12 @@ Which is faster:
 - or reading everything into memory and filtering in Python? The result described in the 2nd variant can be seen if one runs file named **script_for_backup2.py**. 
 
     After launching 2 files one should be able to compare results. 
+    
+    
+3. **"Lime sales" Project**
+
+    Within this small project, I acted as a data analyst for an online lime retailer called "Sublime Limes". One of the product managers at Sublime Limes would like to gain insight into the customers and their sales habits. So using Matplotlib, I have created different line graphs to communicate this information effectively.
+    
+    Resulting graphs:
+      ![image](https://user-images.githubusercontent.com/27677180/152785472-27bbb01e-475e-4144-b9d7-db62f3ca678a.png)
+
