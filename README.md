@@ -3,7 +3,7 @@
 
 ## Brief projects' description (ordered descendingly by the completion):
 
-### 4.**"Lime sales"**
+### 4.**"Limes sale"**
 
 Within this small project, I acted as a data analyst for an online lime retailer called "Sublime Limes". One of the product managers at Sublime Limes would like to gain insight into the customers and their sales habits. So using Matplotlib, I have created different line graphs to communicate this information effectively.
 
