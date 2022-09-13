@@ -15,7 +15,7 @@ Resulting graphs:
 ### 3.**"Filtering in SQL vs. Filtering in Python"**
 
 In a file [script_for_backup.py](script_for_backup.py) there is a program that creates a new database called `backup.db` with the same structure as `original.db` (see previous item) and copies all the values greater than `20.0` from `original.db` to `backup.db`. 
-The main question is: which approach is faster filtering values in the query or reading everything into memory and filtering in Python? 
+Which approach is faster: filtering values in the query or reading everything into memory and filtering in Python wich is in [script_for_backup2.py](/script_for_backup2.py)? 
 
 After launching 2 files one should be able to compare results. 
     
