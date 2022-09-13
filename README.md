@@ -3,6 +3,12 @@
 
 ## Brief projects' description (ordered by completion):
 
+### 5. NLP: [text preprocessing scripts](nlp_preprocessing.py)
+
+File contains text preprocessing scripts for nlp used for text cleaning, tokenisation and lemmatization.
+
+----------------------
+
 ### 4. Matplotlib graph: ["Limes sale"](limes_sale.py)
 
 Within this small project, I acted as a data analyst for an online lime retailer called "Sublime Limes". One of the product managers at Sublime Limes would like to gain insight into the customers and their sales habits. So using Matplotlib, I have created different line graphs to communicate this information.
